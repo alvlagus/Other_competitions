@@ -1,0 +1,17 @@
+version: '2.3'
+services:
+    dev:
+#         runtime: nvidia
+        build:
+          context: ./
+          dockerfile: ./Dockerfile
+        image: contacts-in-item:$USER
+        container_name: contacts-in-item-$USER
+        volumes:
+            - ./:/app
+            - ./data:/data
+            - ./data:/test_data
+        ipc: host
+        shm_size: 8G
+        command: /bin/bash -c "python lib/run.py --debug"
+        network_mode: none

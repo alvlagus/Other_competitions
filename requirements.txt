@@ -1,0 +1,6 @@
+numpy==1.23.3
+pandas==1.4.4
+catboost
+pandarallel
+pymorphy2
+nltk

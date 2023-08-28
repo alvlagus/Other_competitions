@@ -1,0 +1,6 @@
+{"phone": "((8|\\+7|\\ )(\\D{0,3}\\d){10})|(\\s+\\D{0,3}((8|\\+7)(\\D{0,3}\\d){10})\\D{0,3}\\s+)|((\\D{0,3}\\d){6})",
+"email": "(?i)(( )*(@|собака)( )*([\\w\\.-]|точка)+)|(http|@mail|@yandex|@yahoo|@gmail|@ya|@list|@bk|@outlook)",
+"youtube": "(?i)(youtube|youtu.be|ютаб|ютьюб|ютуб|утуб|тытруб)",
+"site": "(?i)(.ru|.com|.pro|.be|ru|com|pro|be|ссылка)",
+"phone_operators": "(?i)(билайн|beeline|мегафон|megafon|мтс|mts|теле2|tele2)",
+"messenger": "(?i)(vk.com|Discord|What's app|Whats app|Whatsapp|вотсап|вацап|viber|вайбер|Telegram|Телега|telegram|ТГ)"}
